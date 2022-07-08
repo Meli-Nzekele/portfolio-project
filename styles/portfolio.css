@@ -78,6 +78,10 @@ h1 {
   text-align: center;
 }
 
+.contact-btn:hover {
+  color: rgb(155, 205, 157);
+}
+
 .project-description {
   color: var(--secondary-color);
   font-weight: normal;
