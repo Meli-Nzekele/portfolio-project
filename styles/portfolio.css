@@ -118,7 +118,7 @@ h1 {
   }
 
   .hero {
-    padding: 80px 20px;
+    padding: 60px 20px;
   }
 
   .project-title {
@@ -128,6 +128,11 @@ h1 {
 
   .project-description {
     text-align: center;
+  }
+
+  .p-heading {
+    text-align: center;
+    font-size: 11px;
   }
 
   .contact-btn,
