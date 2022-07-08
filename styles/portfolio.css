@@ -96,15 +96,11 @@ h1 {
   display: block;
 }
 
-.about-paragraphs {
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  margin: 10px;
-}
-
 /*About*/
+
+#profile-image {
+  margin: 0 auto;
+}
 
 .shecodes-link {
   color: #fff;
