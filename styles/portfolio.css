@@ -78,7 +78,8 @@ h1 {
   text-align: center;
 }
 
-.contact-btn:hover {
+.contact-btn:hover,
+.project-link:hover {
   color: rgb(155, 205, 157);
 }
 
@@ -90,16 +91,18 @@ h1 {
   opacity: 0.8;
 }
 
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
 /*About*/
 
-#profile-image {
-  margin: 0 auto;
+.about-heading {
+  font-size: 60px;
+}
+
+.about-paragraph {
+  text-transform: lowercase;
+}
+
+.view-project-btn {
+  margin: 20px;
 }
 
 .shecodes-link {
