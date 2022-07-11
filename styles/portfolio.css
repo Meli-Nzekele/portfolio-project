@@ -96,11 +96,11 @@ h1,
 
 /*About*/
 
-.about-section {
-  padding: 120px 20px;
+.content-container {
+  padding: 160px 20px;
 }
 
-.about-section-content {
+.content {
   margin: 30px;
 }
 
