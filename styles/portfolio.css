@@ -18,6 +18,11 @@ h3 {
   margin: 0;
 }
 
+h3 {
+  color: rgb(167, 165, 165);
+  opacity: 0.3;
+}
+
 h1,
 .about-heading {
   font-size: 72px;
