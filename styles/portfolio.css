@@ -1,6 +1,7 @@
 :root {
   --primary-color: #000;
   --secondary-color: #fff;
+  --tertiary-color: rgb(193, 249, 195);
   --default-font-family: "Roboto", sans-serif;
   --btn-font-family: "Montserrat", sans-serif;
 }
@@ -17,11 +18,13 @@ h3 {
   margin: 0;
 }
 
-h1 {
+h1,
+.about-heading {
   font-size: 72px;
   font-weight: 700;
   line-height: 84px;
   letter-spacing: 0.1em;
+  color: var(--secondary-color);
 }
 
 .hero {
@@ -47,7 +50,7 @@ h1 {
 }
 
 .project-title {
-  color: rgb(193, 249, 195);
+  color: var(--tertiary-color);
   letter-spacing: 0.1em;
 }
 
@@ -80,7 +83,7 @@ h1 {
 
 .contact-btn:hover,
 .project-link:hover {
-  color: rgb(155, 205, 157);
+  color: var(--tertiary-color);
 }
 
 .project-description {
@@ -93,21 +96,33 @@ h1 {
 
 /*About*/
 
+.about-section {
+  padding: 120px 20px;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
 .about-heading {
   font-size: 60px;
 }
 
 .about-paragraph {
-  text-transform: lowercase;
-}
-
-.view-project-btn {
-  margin: 20px;
+  font-size: 24px;
+  color: var(--tertiary-color);
+  letter-spacing: 0.1em;
 }
 
 .shecodes-link {
-  color: #fff;
+  color: var(--secondary-color);
   font-weight: bold;
+  text-decoration: none;
+}
+
+.shecodes-link:hover {
+  color: var(--tertiary-color);
+  font-style: italic;
   text-decoration: none;
 }
 
@@ -145,4 +160,9 @@ h1 {
     width: 225px;
     text-align: center;
   }
+}
+
+.about-section {
+  text-align: center;
+  padding: 0;
 }
